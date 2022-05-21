@@ -2,6 +2,8 @@
 
 # Day 8 - Pulumi Logging and troubleshooting
 
+[GitHub Repo for this blog.](https://github.com/JustJordanT/pulumi-docker-example)
+
 ## What is Pulumi logging and troubleshooting?
 Pulumi has a collection of functions available to us such as. 
 
