@@ -1,4 +1,4 @@
-## Day 2 - Projects In Pulumi
+## Day 2 - Pulumi Projects
 
 # Day 2 Pulumi In Projects
 
