@@ -1,4 +1,4 @@
-## Day - 1 Get Going With GO.
+## Day 1 - Get Going With GO.
 
 # Day 1 - Get Going With GO!
 Before we start, I would like to go over some **prerequisites** that we should know before learning GO.
