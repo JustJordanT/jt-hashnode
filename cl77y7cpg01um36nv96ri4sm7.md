@@ -59,7 +59,7 @@ This notation is pretty common with a lot of Data structures, as we can see belo
 
 ```
 
-## O(n)
+### O(n)
 O(n) is a linear time complexity where the number of operations grows with the elements in our program. If we take a look at our chart, this will make more sense. 
 
 
@@ -77,7 +77,7 @@ publist static void() loops(int[] nums)
 
 As we look through the prior code, we can see that this could print only once or 10,000 times just, depending on the number of elements in our Array.
 
-## O(n^2)
+### O(n^2)
 This time complexity is the worst that we have seen thus far I wanted to through this one in here since we will see it a lot of the time; this can be called the “brute force” method. Some have said, “Brute Force is the most basic and simplest type of algorithm. A Brute Force Algorithm is the straightforward approach to a problem, i.e., the first approach that comes to mind when seeing the problem.” 
 
 Given the following question. 
