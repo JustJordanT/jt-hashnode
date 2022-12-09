@@ -56,7 +56,7 @@ export let options = {
 
 export default function() {
 
-  let res = http.get("[https://mywebsite.com/](https://mywebsite.com/)");
+  let res = http.get("https://mywebsite.com/");
 
   check(res, {
 
