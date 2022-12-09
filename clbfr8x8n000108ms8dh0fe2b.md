@@ -44,7 +44,7 @@ import { check } from 'k6';
 import http from 'k6/http';
 
 export default function () {
-  const res = http.get('http://test.k6.io/');
+  const res = http.get('https://mywebsite.com/');
   check(res, {
     'is status 200': (r) => r.status === 200,
   });
