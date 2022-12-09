@@ -58,9 +58,9 @@ namespace eCommerce
 
 This code follows several principles of clean code, including:
 
-Using descriptive and meaningful names for variables and functions. For example, the firstName and lastName variables indicate the information they contain, and the GetFullName and GetEmail functions are named in a way that clarifies their purpose.
+Using descriptive and meaningful names for variables and functions. For example, the firstName and lastName variables indicate the information they contain, and the `GetFullName` and `GetEmail` functions are named in a way that clarifies their purpose.
 
-Keeping functions short and focused. The GetFullName and GetEmail functions are each a single line of code, which makes them easy to understand and maintain.
+Keeping functions short and focused. The `GetFullName` and `GetEmail` functions are each a single line of code, which makes them easy to understand and maintain.
 
 Avoiding duplication. There is no duplication of code in this example, which makes it easier to understand and maintain.
 
