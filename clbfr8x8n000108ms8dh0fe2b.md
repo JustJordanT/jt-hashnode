@@ -2,9 +2,7 @@
 
 Scaling web apps in the cloud can be a difficult situation dealing with so many layers of frontends and backends;  managing containers, databases, load balancers, and the list goes on. 
 
-Load testing an application is a good idea because it helps to ensure that the application can handle the expected amount of traffic or usage without performance degradation or outages. 
-
-This is important because if an application is not able to handle the expected load, it can lead to a poor user experience, which can result in lost customers or revenue. In addition, load testing can help identify potential bottlenecks or other issues that can be addressed before the application is deployed, which can help to prevent costly outages or other problems.
+Load testing an application is a good idea because it helps to ensure that the application can handle the expected amount of traffic or usage without performance degradation or outages; this is important because if an application is not able to handle the expected load, it can lead to a poor user experience, which can result in lost customers or revenue. In addition, load testing can help identify potential bottlenecks or other issues that can be addressed before the application is deployed, which can help to prevent costly outages or other problems.
 
 There are always so many nuances with different Cloud providers managing things from an Azure perspective; compared to AWS, it can be a little different dealing with the same systems theoretically but with a different interface and different means of management.
 
@@ -42,33 +40,15 @@ Next, create a JavaScript file that defines the load test. For example, let's ca
   
 ```js
 
-import http from "k6/http";
+import { check } from 'k6';
+import http from 'k6/http';
 
-import { check, sleep } from "k6";
-
-export let options = {
-
-  vus: 10,
-
-  duration: "30s"
-
-};
-
-export default function() {
-
-  let res = http.get("https://mywebsite.com/");
-
-  check(res, {
-
-    "status was 200": (r) =&gt; r.status == 200,
-
-    "transaction time OK": (r) =&gt; r.timings.duration &lt; 200
-
-  });
-
-  sleep(1);
-
-}  
+export default function () {
+  const res = http.get('http://test.k6.io/');
+  check(res, {
+    'is status 200': (r) => r.status === 200,
+  });
+}
 ```
 
 In this example, the load test is configured to run with 10 virtual users (vus) for 30 seconds. The test sends a GET request to [https://mywebsite.com/](https://mywebsite.com/) and checks that the response has a status code of 200 and a transaction time of less than 200 milliseconds. The test then sleeps for 1 second before repeating.
