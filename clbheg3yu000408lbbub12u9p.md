@@ -13,4 +13,5 @@ Happy coding, my nerds! 🤓
 Resources
 
 [What is DevOps?](https://www.youtube.com/watch?v=UbtB4sMaaNM)
+
 [DevOps - Wikipedia](https://en.wikipedia.org/wiki/DevOps)
