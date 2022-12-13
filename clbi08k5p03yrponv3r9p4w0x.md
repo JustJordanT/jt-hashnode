@@ -30,5 +30,7 @@ Happy coding 🏗
 ### Resources:
 
 [DevOps Handbook](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002)
+
 [The Unicorn Project](https://www.amazon.in/Unicorn-Project-Developers-Disruption-Thriving-ebook/dp/B07QT9QR41)
+
 [Effective DevOps: Building a Culture of Collaboration, Affinity, and Tooling at Scale](https://www.amazon.com/Effective-DevOps-Building-Collaboration-Affinity/dp/1491926309)
